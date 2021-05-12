@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+:root {
+  --dark-cyan: #19a2ae;
+  --very-dark-desaturated-blue: #2d3248;
+  --dark-grayish-blue: #6a6f81;
+  --dark-gray: #969696;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background: #19a2ae;
+  font-size: 18px;
+  font-family: "Kumbh Sans", sans-serif;
+  background-image: url("./images/bg-pattern-top.svg"),
+  url("./images/bg-pattern-bottom.svg");
+  background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+  background-repeat: no-repeat, no-repeat;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.profile-card {
+  width: 80%;
+  margin: 20vh auto;
+  background-color: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  max-width: 400px;
+  min-height: 420px;
+  box-shadow: 3px 3px 4px 0 var(--dark-cyan);
+}
+
+.profile-top-img > img:first-child {
+  width: 100%;
+}
+
+.profile-top-img > img:last-child {
+  border: 5px solid #fff;
+  border-radius: 50%;
+  margin-top: -60px;
+  background-color: #fff;
+}
+
+.profile-details {
+  border-bottom: 1px solid #e8e8e8;
+  padding-bottom: 1.8rem;
+}
+
+.profile-details p:first-child {
+  font-weight: 700;
+  color: var(--very-dark-desaturated-blue);
+  font-size: 1.2rem;
+  margin-bottom: .8rem;
+}
+
+.profile-details p:first-child span {
+  font-weight: 400;
+  color: var(--dark-grayish-blue);
+  margin-left: .5em;
+}
+
+.profile-details p:last-child {
+  font-weight: 400;
+  color: var(--dark-grayish-blue);
+  margin: 0;
+  font-size: .9rem
+}
+
+.profile-stats {
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
+  line-height: .4em;
+  padding: 1.8rem 0;
+}
+
+.col p:first-child {
+  font-weight: 700;
+  color: var(--very-dark-desaturated-blue);
+  font-size: 1.2rem;
+}
+
+.col p:last-child {
+  font-weight: 400;
+  color: var(--dark-gray);
+  font-size: .7rem;
+  letter-spacing: .1em;
+}
+
+.attribution {
+  font-size: .8rem;
+  text-align: center;
+  background-color: #fff;
+  color: var(--dark-gray);
+  padding: 2em;
+  line-height: 1.4em;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
