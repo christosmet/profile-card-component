@@ -19,13 +19,14 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./design/profile_card_component_mobile.png)
+![](./design/profile_card_component_desktop.png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL](https://www.frontendmentor.io/solutions/mobile-first-using-flex-510tMCsKi)
+- Live Site URL: [live site URL](https://christosmet.github.io/profile-card-component/)
 
 ## My process
 
